@@ -1,0 +1,22 @@
+.big {
+  display: grid;
+  grid-template: 600px / 600px 600px;
+  grid-gap: 50px;
+}
+
+.small {
+  border:5px solid black;
+  display: grid;
+  grid-template: 175px 175px 175px / 175px 175px 175px;
+  grid-gap: 10px;
+}
+
+img {
+  border: 1px solid black;  
+  width: 175px;
+  height: 175px;
+}
+
+.small div {
+  border: 1px solid black;
+}
